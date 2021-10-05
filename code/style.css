@@ -201,8 +201,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   background-color: peachpuff;
-  height: 150px;
-  padding: 40px;
+  height: 50px;
 }
 
 .footer-logo {
@@ -263,6 +262,14 @@ i {
     justify-content: flex-end;
   }
 
+  .small-news-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    justify-content: center;
+    margin: 20px;
+  }
+
   footer {
     justify-content: center;
   }
@@ -300,6 +307,8 @@ i {
   }
 
   .small-news-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     margin-top: 50px;
     padding: 30px;
   }
